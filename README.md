@@ -27,9 +27,19 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 ## Installation
 
-1. Download the latest release ZIP from the [Releases](../../releases) page
-2. In Kodi, go to **Add-ons > Install from ZIP file**
-3. Select the downloaded `plugin.video.xstream-player.zip`
+### Option 1: Install from Repository (recommended)
+
+1. Download the repository ZIP from the [Releases](../../releases) page
+2. In Kodi, go to **Settings > Add-ons > Install from ZIP file**
+3. Select the downloaded repository ZIP
+4. Go to **Install from repository > XStream Player Repository > Video add-ons**
+5. Select **XStream Player** and install
+
+### Option 2: Install from ZIP
+
+1. Download `plugin.video.xstream-player.zip` from the [Releases](../../releases) page
+2. In Kodi, go to **Settings > Add-ons > Install from ZIP file**
+3. Select the downloaded ZIP
 4. PVR IPTV Simple Client will be installed automatically
 
 ## Setup
