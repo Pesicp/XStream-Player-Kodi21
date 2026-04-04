@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.xstream-player" name="XStream Player Repository" version="1.0.0" provider-name="Pesicp">
+    <extension point="xbmc.addon.repository" name="XStream Player Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Pesicp/XStream-Player/main/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Pesicp/XStream-Player/main/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Pesicp/XStream-Player/main/repo</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>XStream Player Repository</summary>
+        <description>Repository for XStream Player - Xtream Codes and M3U addon for Kodi</description>
+        <platform>all</platform>
+    </extension>
+</addon>
