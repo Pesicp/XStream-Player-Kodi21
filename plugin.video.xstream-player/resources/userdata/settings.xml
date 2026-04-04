@@ -1,0 +1,116 @@
+<settings version="2">
+    <setting id="active_profile" default="true">Profile 1</setting>
+    <setting id="profile_1_name" default="true">Profile 1</setting>
+    <setting id="profile_1_source_type" default="true">Xtream Codes</setting>
+    <setting id="profile_1_m3u" default="true" />
+    <setting id="profile_1_xtream_url" default="true" />
+    <setting id="profile_1_xtream_username" default="true" />
+    <setting id="profile_1_xtream_password" default="true" />
+    <setting id="profile_1_epg_url" default="true" />
+    <setting id="profile_1_visible_categories" default="true">live|movies|series|replay|search|favorites|tools</setting>
+    <setting id="profile_2_name" default="true">Profile 2</setting>
+    <setting id="profile_2_source_type" default="true">Xtream Codes</setting>
+    <setting id="profile_2_m3u" default="true" />
+    <setting id="profile_2_xtream_url" default="true" />
+    <setting id="profile_2_xtream_username" default="true" />
+    <setting id="profile_2_xtream_password" default="true" />
+    <setting id="profile_2_epg_url" default="true" />
+    <setting id="profile_2_visible_categories" default="true">live|movies|series|replay|search|favorites|tools</setting>
+    <setting id="profile_3_name" default="true">Profile 3</setting>
+    <setting id="profile_3_source_type" default="true">Xtream Codes</setting>
+    <setting id="profile_3_m3u" default="true" />
+    <setting id="profile_3_xtream_url" default="true" />
+    <setting id="profile_3_xtream_username" default="true" />
+    <setting id="profile_3_xtream_password" default="true" />
+    <setting id="profile_3_epg_url" default="true" />
+    <setting id="profile_3_visible_categories" default="true">live|movies|series|replay|search|favorites|tools</setting>
+    <setting id="profile_4_name" default="true">Profile 4</setting>
+    <setting id="profile_4_source_type" default="true">Xtream Codes</setting>
+    <setting id="profile_4_m3u" default="true" />
+    <setting id="profile_4_xtream_url" default="true" />
+    <setting id="profile_4_xtream_username" default="true" />
+    <setting id="profile_4_xtream_password" default="true" />
+    <setting id="profile_4_epg_url" default="true" />
+    <setting id="profile_4_visible_categories" default="true">live|movies|series|replay|search|favorites|tools</setting>
+    <setting id="profile_5_name" default="true">Profile 5</setting>
+    <setting id="profile_5_source_type" default="true">Xtream Codes</setting>
+    <setting id="profile_5_m3u" default="true" />
+    <setting id="profile_5_xtream_url" default="true" />
+    <setting id="profile_5_xtream_username" default="true" />
+    <setting id="profile_5_xtream_password" default="true" />
+    <setting id="profile_5_epg_url" default="true" />
+    <setting id="profile_5_visible_categories" default="true">live|movies|series|replay|search|favorites|tools</setting>
+    <setting id="profile_6_name" default="true">Profile 6</setting>
+    <setting id="profile_6_source_type" default="true">Xtream Codes</setting>
+    <setting id="profile_6_m3u" default="true" />
+    <setting id="profile_6_xtream_url" default="true" />
+    <setting id="profile_6_xtream_username" default="true" />
+    <setting id="profile_6_xtream_password" default="true" />
+    <setting id="profile_6_epg_url" default="true" />
+    <setting id="profile_6_visible_categories" default="true">live|movies|series|replay|search|favorites|tools</setting>
+    <setting id="profile_7_name" default="true">Profile 7</setting>
+    <setting id="profile_7_source_type" default="true">Xtream Codes</setting>
+    <setting id="profile_7_m3u" default="true" />
+    <setting id="profile_7_xtream_url" default="true" />
+    <setting id="profile_7_xtream_username" default="true" />
+    <setting id="profile_7_xtream_password" default="true" />
+    <setting id="profile_7_epg_url" default="true" />
+    <setting id="profile_7_visible_categories" default="true">live|movies|series|replay|search|favorites|tools</setting>
+    <setting id="profile_8_name" default="true">Profile 8</setting>
+    <setting id="profile_8_source_type" default="true">Xtream Codes</setting>
+    <setting id="profile_8_m3u" default="true" />
+    <setting id="profile_8_xtream_url" default="true" />
+    <setting id="profile_8_xtream_username" default="true" />
+    <setting id="profile_8_xtream_password" default="true" />
+    <setting id="profile_8_epg_url" default="true" />
+    <setting id="profile_8_visible_categories" default="true">live|movies|series|replay|search|favorites|tools</setting>
+    <setting id="profile_9_name" default="true">Profile 9</setting>
+    <setting id="profile_9_source_type" default="true">Xtream Codes</setting>
+    <setting id="profile_9_m3u" default="true" />
+    <setting id="profile_9_xtream_url" default="true" />
+    <setting id="profile_9_xtream_username" default="true" />
+    <setting id="profile_9_xtream_password" default="true" />
+    <setting id="profile_9_epg_url" default="true" />
+    <setting id="profile_9_visible_categories" default="true">live|movies|series|replay|search|favorites|tools</setting>
+    <setting id="profile_10_name" default="true">Profile 10</setting>
+    <setting id="profile_10_source_type" default="true">Xtream Codes</setting>
+    <setting id="profile_10_m3u" default="true" />
+    <setting id="profile_10_xtream_url" default="true" />
+    <setting id="profile_10_xtream_username" default="true" />
+    <setting id="profile_10_xtream_password" default="true" />
+    <setting id="profile_10_epg_url" default="true" />
+    <setting id="profile_10_visible_categories" default="true">live|movies|series|replay|search|favorites|tools</setting>
+    <setting id="stream_timeout" default="true">15</setting>
+    <setting id="custom_user_agent" default="true" />
+    <setting id="use_inputstream_adaptive" default="true">false</setting>
+    <setting id="prefetch_on_startup" default="true">false</setting>
+    <setting id="auto_epg" default="true">true</setting>
+    <setting id="show_epg_live" default="true">true</setting>
+    <setting id="epg_language" default="true" />
+    <setting id="epg_force_refresh_startup" default="true">false</setting>
+    <setting id="epg_refresh" default="true">4</setting>
+    <setting id="epg_offset" default="true">0</setting>
+    <setting id="epg_past_days" default="true">3</setting>
+    <setting id="replay_days" default="true">7</setting>
+    <setting id="hide_empty_categories" default="true">false</setting>
+    <setting id="channel_logo_cache" default="true">true</setting>
+    <setting id="default_sort_order" default="true">Provider order</setting>
+    <setting id="view_main" default="true">55</setting>
+    <setting id="view_live" default="true">55</setting>
+    <setting id="view_movies" default="true">55</setting>
+    <setting id="view_series" default="true">55</setting>
+    <setting id="view_replay" default="true">55</setting>
+    <setting id="view_search" default="true">55</setting>
+    <setting id="view_favorites" default="true">55</setting>
+    <setting id="view_tools" default="true">55</setting>
+    <setting id="enable_parental_control" default="true">false</setting>
+    <setting id="parental_pin" default="true">0</setting>
+    <setting id="hide_adult_categories" default="true">false</setting>
+    <setting id="auto_refresh_enabled" default="true">true</setting>
+    <setting id="auto_refresh_interval" default="true">24</setting>
+    <setting id="backup_profiles" default="true" />
+    <setting id="restore_profiles" default="true" />
+    <setting id="clear_all_caches" default="true" />
+    <setting id="epg_url" default="true" />
+    <setting id="provider_sort" default="true">true</setting>
+</settings>
