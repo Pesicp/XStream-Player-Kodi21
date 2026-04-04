@@ -41,6 +41,49 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 5. When prompted, restart Kodi for PVR Live TV to work properly
 6. After restart, open XStream Player and enjoy Live TV, Movies, and Series
 
+### Live TV Mode
+
+The addon supports two Live TV modes (configurable in **Settings > PVR**):
+
+- **PVR (recommended)** - Uses Kodi's native PVR/Live TV with channel guide. Requires PVR IPTV Simple Client and a Kodi restart after first setup.
+- **Plugin list** - Browse and play Live TV directly within the addon. No PVR required, no restart needed. Good for devices where PVR causes issues.
+
+## Settings Overview
+
+### Profiles
+- **Active Profile** - Switch between up to 10 profiles, each with its own credentials
+- **Lock credentials with PIN** - Protect settings access with a PIN code
+
+### Playback
+- **Stream timeout** - How long to wait before giving up on a stream (default 15s)
+- **Custom User-Agent** - Override the browser user-agent for streams that require it
+- **Use InputStream Adaptive** - Enable for HLS/adaptive streams (try if streams don't play)
+- **Pre-fetch all data on startup** - Cache everything when you first open the addon
+
+### EPG
+- **Auto-detect EPG from Xtream** - Automatically fetch the TV guide from your provider
+- **Show EPG info in Live TV** - Display current/next program info on channel listings
+- **EPG language priority** - Preferred language for guide data (e.g. `en`, `fr`)
+- **EPG refresh interval** - How often to update the guide (default every 4 hours)
+- **EPG timezone offset** - Adjust if program times are wrong
+- **Replay days back** - How many days of catchup/replay to show (default 7)
+
+### Metadata
+- **Enable TMDB metadata** - Fetch movie plots and posters from TMDB (requires free API key from themoviedb.org)
+- **Use TMDB posters/ratings** - Choose what to pull from TMDB
+
+### Parental Control
+- **Enable parental control** - Require PIN to access Movies and Series
+- **Hide adult categories** - Filter out adult content from listings (toggle in Tools menu)
+
+### PVR
+- **Live TV mode** - Choose between PVR (native Kodi Live TV) or Plugin list (in-addon browsing)
+- **Auto-sync Live TV to PVR** - Automatically update PVR channels on refresh
+
+### Maintenance
+- **Backup/Restore** - Save and restore your profiles and settings
+- **Clear Cache** - Clear EPG, channel, or TMDB cache separately or all at once
+
 ## Requirements
 
 - Kodi 21 (Omega) or later
