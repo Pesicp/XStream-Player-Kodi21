@@ -31,14 +31,14 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 1. In Kodi, go to **Settings > File Manager**
 2. Select **Add source**
-3. Enter the URL: `https://raw.githubusercontent.com/Pesicp/XStream-Player/main/repo`
-4. Name it `XStream Player` and click OK
-5. Go to **Settings > Add-ons > Install from ZIP file**
-6. Select **XStream Player** source
-7. Select **repository.xstream-player** > `repository.xstream-player-1.0.0.zip`
-8. Wait for "Repository installed" notification
-9. Go to **Settings > Add-ons > Install from repository > XStream Player Repository > Video add-ons**
-10. Select **XStream Player** and install
+3. Enter the URL: `URL`
+5. Name it `XStream Player` and click OK
+6. Go to **Settings > Add-ons > Install from ZIP file**
+7. Select **XStream Player** source
+8. Select **repository.xstream-player** > `repository.xstream-player-1.0.0.zip`
+9. Wait for "Repository installed" notification
+10. Go to **Settings > Add-ons > Install from repository > XStream Player Repository > Video add-ons**
+11. Select **XStream Player** and install
 
 ### Option 2: Install via Repository ZIP (enables auto-updates)
 
