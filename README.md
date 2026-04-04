@@ -27,7 +27,7 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 ## Installation
 
-### bInstall from ZIP
+### Install from ZIP
 
 1. Download `plugin.video.xstream-player.zip` from the [Releases](../../releases) page
 2. In Kodi, go to **Settings > Add-ons > Install from ZIP file**
