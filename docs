@@ -1,0 +1,21 @@
+docs/addons.xml:
+  <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <addons>
+      <addon id="plugin.video.xstream-player"
+             name="XStream Player"
+             version="1.0.0"
+             provider-name="XStream Player">
+          <requires>
+              <import addon="xbmc.python" version="3.0.1"/>
+          </requires>
+          <extension point="xbmc.python.pluginsource" library="addo
+  n.py">
+              <provides>video</provides>
+          </extension>
+          <extension point="xbmc.addon.metadata">
+              <summary>XStream Player</summary>
+              <description>IPTV player</description>
+              <platform>all</platform>
+          </extension>
+      </addon>
+  </addons>
