@@ -24,11 +24,11 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 ## Screenshots
 
-![Addon Icon](Screenshots/1.png)
+![Addon Icon](Screenshots/1a.png)
 
-![Main Menu](Screenshots/2.png)
+![Main Menu](Screenshots/2a.png)
 
-![Tools Menu](Screenshots/3.png)
+![Tools Menu](Screenshots/3a.png)
 
 ## Installation
 
