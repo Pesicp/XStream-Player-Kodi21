@@ -6,13 +6,14 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 - **Live TV - PVR** with EPG guide and Kodi's native PVR integration
 - **Live TV - Classic** with in-addon channel browsing
-- **PVR Favorites** — separate favorites system for PVR channels with category-based management
+- **Favorites Manager - PVR** — create custom PVR favorite groups that appear in Kodi's PVR channel panel (via a dedicated PVR instance)
+- **Favorites - Classic, Movies, Series** — custom favorites groups with context menu integration and M3U export
 - **Movies** with plot info and poster art
 - **Series** with season/episode tracking and watched status
 - **Replay / Catchup** for channels with archive support
-- **10 Profiles** with independent credentials and per-profile data loading toggles
+- **10 Profiles** with independent credentials, favorites, PVR favorites, hidden items, and per-profile data loading toggles
+- **Manage content per profile** — hide/unhide categories or individual channels, movies, and series from within profile settings
 - **Search** across Live TV, Movies, and Series
-- **Favorites Manager** with custom groups, context menu integration, and M3U export
 - **Watch History** with resume playback support
 - **Parental Control** with PIN lock
 - **Credentials PIN lock** to protect profile settings
@@ -27,7 +28,7 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 ![Main Menu](Screenshots/2.png)
 
-![Tools Menu](Screenshots/3a.png)
+![Tools Menu](Screenshots/3.png)
 
 ## Installation
 
@@ -56,17 +57,33 @@ The main menu shows two Live TV options:
 - **Live TV - PVR** — Uses Kodi's native PVR with full channel guide, zapping, and EPG. Requires a Kodi restart after first setup.
 - **Live TV - Classic** — Browse and play channels directly within the addon. No restart needed.
 
-### Favorites Manager
+### Favorites Manager - PVR
+
+Create custom PVR favorite groups from the main menu. Each group appears as a channel group in Kodi's PVR left panel via a dedicated second PVR instance.
+
+- Create groups and populate them by browsing categories or searching channels
+- Add entire categories or pick individual channels via multiselect
+- Manage existing channels in each group (add/remove via multiselect)
+- Groups appear in PVR as "★ Favorites - GroupName"
+- Rename or delete groups from the context menu
+
+### Favorites - Classic, Movies, Series
 
 Create custom favorites groups from the main menu. Each group can hold a mix of live channels, movies, and series. Items are organized by type inside each group.
 
-- Right-click any item anywhere (Classic, Movies, Series, PVR Favorites) to add it to a custom group
+- Right-click any item anywhere (Classic, Movies, Series) to add it to a custom group
 - Rename, export, or delete groups from the Favorites Manager
 - Groups appear in context menus across the entire addon
 
-### PVR Favorites
+### Per-Profile Data Separation
 
-A separate favorites system for PVR channels. Add channels from "Manage PVR Favorites" in Tools, which lets you browse by category or search. PVR Favorites appear as a dedicated menu item below Live TV - PVR.
+Each of the 10 profiles has completely independent:
+
+- Favorites (Classic, Movies, Series groups)
+- PVR Favorites groups
+- Hidden categories and individual items
+- Visible main menu items
+- Data loading toggles (Live TV, Movies, Series)
 
 ### Data Loading Toggles
 
@@ -76,6 +93,15 @@ Each profile has toggles to enable/disable loading of Live TV, Movies, and Serie
 - Its menu items are hidden from the main menu
 - Guide and Replay are also hidden when Live TV is disabled
 - Already-favorited items remain accessible from custom groups
+
+### Manage Content (Hide/Unhide)
+
+Each profile has **Manage Live TV / Movies / Series content** buttons in Settings > Profiles. You can also access this from Tools > Hide Content Categories.
+
+- Browse categories and hide entire categories or individual items
+- Hidden items are excluded from PVR sync and all listings — they are not loaded at all
+- "Hidden Items" at the top shows all individually hidden items for easy unhiding
+- All hidden data is per-profile
 
 ## Settings Overview
 
@@ -88,6 +114,7 @@ Each profile has toggles to enable/disable loading of Live TV, Movies, and Serie
 - **Server URL / Username / Password** — Provider credentials
 - **EPG URL** — Optional custom EPG source
 - **Load Live TV / Movies / Series** — Toggle which content types to fetch and display
+- **Manage Live TV / Movies / Series content** — Hide/unhide categories and individual items
 
 ### Playback & Buffer
 - **Stream timeout** — How long to wait before giving up on a stream (default 15s)
@@ -126,10 +153,9 @@ Each profile has toggles to enable/disable loading of Live TV, Movies, and Serie
 
 - **Settings** — Open addon settings
 - **Refresh List** — Reload all data from provider
-- **Manage visible categories** — Show/hide main menu items
-- **Hide Live TV / Movie / Series categories** — Hide specific subcategories
+- **Main Menu Items** — Show/hide main menu items
+- **Hide Content Categories** — Hide/unhide categories and individual items (Live TV, Movies, Series)
 - **Hide adult categories** — Toggle adult content filtering
-- **Manage PVR Favorites** — Add/remove PVR favorite channels by category or search
 - **Clear Cache** — Clear EPG, channel, TMDB, or watch history cache
 - **Switch Profile** — Quick profile switcher
 - **Test Connection** — Verify provider connectivity
