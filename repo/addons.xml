@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="repository.xstream" name="XStream Repository" version="1.0.0" provider-name="XStream">
+        <extension point="xbmc.addon.repository" name="XStream Repository">
+            <dir>
+                <info compressed="false">https://pesicp.github.io/XStream-Player-Kodi21/addons.xml</info>
+                <checksum>https://pesicp.github.io/XStream-Player-Kodi21/addons.xml.md5</checksum>
+                <datadir zip="true">https://pesicp.github.io/XStream-Player-Kodi21/</datadir>
+            </dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">XStream Player Repository</summary>
+            <description lang="en_GB">Install XStream Player and receive updates automatically</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
+    <addon id="plugin.video.xstream-player" name="XStream Player" version="1.0.0" provider-name="XStream Player">
+        <requires>
+            <import addon="xbmc.python" version="3.0.1"/>
+            <import addon="script.module.requests" version="2.22.0"/>
+            <import addon="pvr.iptvsimple"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="resources/lib/addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">XStream Player - Organised M3U &amp; Xtream player</summary>
+            <description lang="en_GB">A clean M3U &amp; Xtream player with proper sorting: Live TV, Movies, Series and Replay, plus EPG support.</description>
+            <platform>all</platform>
+            <license>MIT</license>
+            <source>https://github.com/Pesicp/XStream-Player</source>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+</addons>
