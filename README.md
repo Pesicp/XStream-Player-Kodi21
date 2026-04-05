@@ -170,4 +170,5 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 
 ## License
 
-MIT
+https://github.com/Pesicp/XStream-Player-Kodi21/blob/main/LICENCE
+
