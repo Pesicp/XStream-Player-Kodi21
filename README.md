@@ -15,22 +15,23 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 - **Manage content per profile** — hide/unhide categories or individual channels, movies, and series from within profile settings
 - **Search** across Live TV, Movies, and Series
 - **Watch History** with resume playback support
-- **Parental Control** with PIN lock
-- **Credentials PIN lock** to protect profile settings
+- **Parental Control** with PIN lock for Settings, Tools, and adult content per type (Live TV, Movies, Series)
+- **Adult content filtering** with comprehensive keyword detection (works independently of PIN lock)
 - **TMDB integration** for movie metadata (optional)
 - **Buffer settings** built-in with configurable size and read factor
-- **Subcategory hiding** for Live TV, Movies, and Series
+- **Subcategory hiding** for Live TV, Movies, and Series with Select All / Deselect All
+- **Catchup / Replay in PVR** — watch past programs directly from the PVR guide (provider support required)
+- **Per-profile caching** — each profile has its own data cache
 - **Auto-refresh** and data caching for fast navigation
+- **PVR keyboard shortcuts in fullscreen** — Left arrow opens channel list, Right arrow opens guide with possibility to watch replays from guide
 
 ## Screenshots
 
-![Addon Icon](Screenshots/1a.png)
+![Addon Icon](Screenshots/1.png)
 
-![Main Menu](Screenshots/2a.png)
+![Main Menu](Screenshots/2.png)
 
-![Tools Menu](Screenshots/3a.png)
-
-![Settings/Profiles](Screenshots/4a.png)
+![Tools Menu](Screenshots/3.png)
 
 ## Installation
 
@@ -56,7 +57,7 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 The main menu shows two Live TV options:
 
-- **Live TV - PVR** — Uses Kodi's native PVR with full channel guide, zapping, and EPG. Requires a Kodi restart after first setup.
+- **Live TV - PVR** — Uses Kodi's native PVR with full channel guide, replay, zapping, and EPG. Requires a Kodi restart after first setup.
 - **Live TV - Classic** — Browse and play channels directly within the addon. No restart needed.
 
 ### Favorites Manager - PVR
@@ -109,7 +110,6 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 
 ### Profile
 - **Active Profile** — Switch between up to 10 profiles, each with its own credentials
-- **Lock credentials with PIN** — Protect settings access with a PIN code
 
 ### Profiles
 - **Source Type** — Xtream Codes or M3U
@@ -135,17 +135,24 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 
 ### PVR & Data
 - **Auto-sync Live TV to PVR** — Automatically update PVR channels on refresh
+- **Force PVR reload on addon launch** — Ensures PVR is active when opening the addon
+- **Enable catchup in PVR** — Watch past programs from the PVR guide (channels with "R" marker)
+- **Catchup days** — How many days back catchup is available (1-14, default 7)
 - **Auto-refresh data** — Automatically refresh channel data at set intervals
 - **Auto-refresh interval** — How often to refresh (12h, 24h, 48h, or Never)
-- **Pre-fetch all data on startup** — Cache everything when you first open the addon
+- **Clear all cache on refresh** — Optionally clear all caches when using Refresh List
+- **Warn on insecure (HTTP) connections** — Optional warning for non-HTTPS provider URLs
 
 ### Appearance
 - **Default sort order** — Sort channels by provider order or A-Z
 - **TMDB metadata** — Fetch movie plots and posters from TMDB (requires free API key from themoviedb.org)
 
 ### Parental Control
-- **Enable parental control** — Require PIN to access Movies and Series
-- **Hide adult categories** — Filter out adult content (toggle in Tools menu)
+- **Hide adult categories** — Filter out adult content using comprehensive keyword detection (works without PIN)
+- **Enable parental control** — Require PIN for protected areas
+- **Lock Settings** — Require PIN to access addon settings
+- **Lock Tools** — Require PIN to access the Tools menu
+- **Lock Adult Live TV / Movies / Series** — Require PIN to enter adult categories (shown with lock icon)
 
 ### Backup & Restore
 - **Backup profiles & data** — Save your profiles and settings
@@ -154,11 +161,10 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 ## Tools Menu
 
 - **Settings** — Open addon settings
-- **Refresh List** — Reload all data from provider
+- **Refresh List** — Reload all data from provider, clears cache, shows progress, and offers restart
 - **Main Menu Items** — Show/hide main menu items
-- **Hide Content Categories** — Hide/unhide categories and individual items (Live TV, Movies, Series)
-- **Hide adult categories** — Toggle adult content filtering
-- **Clear Cache** — Clear EPG, channel, TMDB, or watch history cache
+- **Hide Content Categories** — Hide/unhide categories and individual items with Hide All / Unhide All buttons and Select All / Deselect All in multiselect
+- **Clear Cache** — Clear all cache, EPG, channel, TMDB, or watch history
 - **Switch Profile** — Quick profile switcher
 - **Test Connection** — Verify provider connectivity
 - **Account Info** — View account details and expiry
@@ -170,5 +176,4 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 
 ## License
 
-https://github.com/Pesicp/XStream-Player-Kodi21/blob/main/LICENCE
-
+[LICENCE](https://github.com/Pesicp/XStream-Player-Kodi21/blob/main/LICENCE)
