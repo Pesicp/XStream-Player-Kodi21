@@ -1,7 +1,7 @@
 # XStream Player
 A Kodi addon for Xtream Codes and M3U playlist playback with organized categories, EPG support, and PVR integration.
 <div align="center">
-    <img src="Screenshots/1.png" width="75%">
+    <img src="Screenshots/1.png" width="50%">
   </div>
 ## Features
 
