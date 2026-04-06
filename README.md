@@ -307,8 +307,6 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 
 ## Tools
 
-![Tools Menu](Screenshots/3.png)
-
 - **Settings** — Open addon settings
 - **Refresh List** — Reload all data from provider, clears cache, shows progress, and offers restart
 - **Main Menu Items** — Show/hide main menu items
@@ -317,6 +315,7 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 - **Switch Profile** — Quick profile switcher
 - **Test Connection** — Verify provider connectivity
 - **Account Info** — View account details and expiry
+![Tools Menu](Screenshots/3.png)
 
 ---
 
