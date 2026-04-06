@@ -31,9 +31,9 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 ![Main Menu](Screenshots/2.png)
 
-![Tools Menu](Screenshots/3.png)
-
-![Settings](Screenshots/4.png)
+| | |
+  |:---:|:---:|
+  | ![Tools Menu](Screenshots/3.png) | ![Settings](Screenshots/4.png) |
 
 ## Installation
 
@@ -58,6 +58,7 @@ This method allows the addon to self-update automatically.
 3. Select the downloaded ZIP
 4. PVR IPTV Simple Client will be installed automatically
 ---
+
 ## Auto-Updates
 
 XStream Player includes a built-in update system. When a new version is available:
@@ -74,6 +75,7 @@ Go to **Settings > Updates** to configure:
 - **Check for Updates**: Manual check button
 - **Revert to Older Version**: Downgrade to a previous version if needed
 ---
+
 ## Setup
 
 1. Open **XStream Player** from your Video Add-ons
@@ -85,6 +87,7 @@ Go to **Settings > Updates** to configure:
 
 > **Note:** After switching profiles, you need to use **Refresh List** to load the new profile's data.
 ---
+
 ### Live TV Modes
 
 The main menu shows two Live TV options:
@@ -92,6 +95,7 @@ The main menu shows two Live TV options:
 - **Live TV - PVR** — Uses Kodi's native PVR with full channel guide, zapping, and EPG. Requires a Kodi restart after first setup.
 - **Live TV - Classic** — Browse and play channels directly within the addon. No restart needed.
 ---
+
 ### Favorites Manager - PVR
 
 Create custom PVR favorite groups from the main menu. Each group appears as a channel group in Kodi's PVR left panel via a dedicated second PVR instance.
@@ -109,6 +113,7 @@ Create custom favorites groups from the main menu. Each group can hold a mix of 
 - Right-click any item anywhere (Classic, Movies, Series) to add it to a custom group
 - Rename, export, or delete groups from the Favorites Manager
 - Groups appear in context menus across the entire addon
+---
 
 ### Per-Profile Data Separation
 
@@ -128,6 +133,7 @@ Each profile has toggles to enable/disable loading of Live TV, Movies, and Serie
 - Its menu items are hidden from the main menu
 - Guide and Replay are also hidden when Live TV is disabled
 - Already-favorited items remain accessible from custom groups
+---
 
 ### Manage Content (Hide/Unhide)
 
@@ -137,6 +143,7 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 - Hidden items are excluded from PVR sync and all listings — they are not loaded at all
 - "Hidden Items" at the top shows all individually hidden items for easy unhiding
 - All hidden data is per-profile
+---
 
 ## Settings Overview
 
@@ -205,6 +212,7 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 
 - Kodi 21 (Omega) or later
 - PVR IPTV Simple Client (installed automatically)
+---
 
 ## License
 
