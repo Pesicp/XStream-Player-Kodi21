@@ -47,12 +47,12 @@ This method allows the addon to self-update automatically.
 5. Click **OK**
 6. Go to **Settings > Add-ons > Install from ZIP file**
 7. Select the `XStream` source you just added
-8. Click on `plugin.video.xstream-player-1.0.6.zip` (latest version)
+8. Click on `plugin.video.xstream-player-*.*.*.zip` (latest version)
 9. The addon will install and auto-update on future launches!
 
 ### Method 2: Direct ZIP Install
 
-1. Download the latest `plugin.video.xstream-player-*.zip` from the [releases page](https://pesicp.github.io/XStream-Player-Kodi21/releases/)
+1. Download the latest `plugin.video.xstream-player-*.*.*.zip` from the [releases page](https://pesicp.github.io/XStream-Player-Kodi21/releases/)
 2. In Kodi, go to **Settings > Add-ons > Install from ZIP file**
 3. Select the downloaded ZIP
 4. PVR IPTV Simple Client will be installed automatically
