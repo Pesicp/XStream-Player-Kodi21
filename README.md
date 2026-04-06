@@ -23,26 +23,54 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 - **Catchup / Replay in PVR** — watch past programs directly from the PVR guide (provider support required)
 - **Per-profile caching** — each profile has its own data cache
 - **Auto-refresh** and data caching for fast navigation
-- **PVR keyboard shortcuts in fullscreen** — Left arrow opens channel list, Right arrow opens guide with possibility to watch replays from guide
+- **PVR keyboard shortcuts** — Left arrow opens channel list, Right arrow opens guide in fullscreen PVR
 
 ## Screenshots
 
-![Addon Icon](Screenshots/1a.png)
+![Addon Icon](Screenshots/1.png)
 
-![Main Menu](Screenshots/2a.png)
+![Main Menu](Screenshots/2.png)
 
 ![Tools Menu](Screenshots/3.png)
 
-![Settings](Screenshots/4a.png)
-
 ## Installation
 
-### Install from ZIP
+### Method 1: Install via File Manager (Recommended for updates)
 
-1. Download `plugin.video.xstream-player.zip` from the [Releases](../../releases) page
+This method allows the addon to self-update automatically.
+
+1. In Kodi, go to **Settings > File Manager**
+2. Select **Add Source**
+3. Enter the URL: `https://pesicp.github.io/XStream-Player-Kodi21/releases/`
+4. Enter a name: `XStream`
+5. Click **OK**
+6. Go to **Settings > Add-ons > Install from ZIP file**
+7. Select the `XStream` source you just added
+8. Click on `plugin.video.xstream-player-1.0.6.zip` (latest version)
+9. The addon will install and auto-update on future launches!
+
+### Method 2: Direct ZIP Install
+
+1. Download the latest `plugin.video.xstream-player-*.zip` from the [releases page](https://pesicp.github.io/XStream-Player-Kodi21/releases/)
 2. In Kodi, go to **Settings > Add-ons > Install from ZIP file**
 3. Select the downloaded ZIP
 4. PVR IPTV Simple Client will be installed automatically
+
+## Auto-Updates
+
+XStream Player includes a built-in update system. When a new version is available:
+
+- **On startup**, you'll see a prompt: "Install Now" or "Later"
+- Click **Install Now** to automatically download and install the update
+- Click **Later** to skip and be reminded next time
+- After installation, restart Kodi to apply the update
+
+### Configure Update Checks
+
+Go to **Settings > Updates** to configure:
+- **Auto-check interval**: Never / On Startup / Daily / Weekly / Monthly
+- **Check for Updates**: Manual check button
+- **Revert to Older Version**: Downgrade to a previous version if needed
 
 ## Setup
 
@@ -59,7 +87,7 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 The main menu shows two Live TV options:
 
-- **Live TV - PVR** — Uses Kodi's native PVR with full channel guide, replay, zapping, and EPG. Requires a Kodi restart after first setup.
+- **Live TV - PVR** — Uses Kodi's native PVR with full channel guide, zapping, and EPG. Requires a Kodi restart after first setup.
 - **Live TV - Classic** — Browse and play channels directly within the addon. No restart needed.
 
 ### Favorites Manager - PVR
@@ -178,4 +206,4 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 
 ## License
 
-[LICENCE](https://github.com/Pesicp/XStream-Player-Kodi21/blob/main/LICENCE)
+MIT
