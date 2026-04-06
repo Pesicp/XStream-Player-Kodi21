@@ -57,6 +57,7 @@ This method allows the addon to self-update automatically.
 4. PVR IPTV Simple Client will be installed automatically
 
 ---
+## Whats New
 
 ### 📺 Live TV Enhancements
 
