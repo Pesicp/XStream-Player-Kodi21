@@ -31,7 +31,9 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 ![Main Menu](Screenshots/2a.png)
 
-![Tools Menu](Screenshots/3a.png)
+![Tools Menu](Screenshots/3.png)
+
+![Settings](Screenshots/4a.png)
 
 ## Installation
 
