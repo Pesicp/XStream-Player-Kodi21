@@ -28,11 +28,7 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 ## Screenshots
 
-![Tools Menu](Screenshots/2.png)
-
-![Tools Menu](Screenshots/3.png)
-
-![Settings](Screenshots/4.png)
+![Main Menu](Screenshots/2.png)
 
 ## Installation
 
@@ -76,7 +72,7 @@ Go to **Settings > Updates** to configure:
 ---
 
 ## Setup
-
+![Settings](Screenshots/4.png)
 1. Open **XStream Player** from your Video Add-ons
 2. Go to **Tools > Settings**
 3. Under **Profiles**, enter your Xtream server URL, username, and password (or M3U URL)
@@ -197,7 +193,7 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 - **Restore profiles & data** — Restore from a previous backup
 
 ## Tools Menu
-
+![Tools Menu](Screenshots/3.png)
 - **Settings** — Open addon settings
 - **Refresh List** — Reload all data from provider, clears cache, shows progress, and offers restart
 - **Main Menu Items** — Show/hide main menu items
