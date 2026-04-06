@@ -26,8 +26,6 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 - **Auto-refresh** and data caching for fast navigation
 - **PVR keyboard shortcuts** — Left arrow opens channel list, Right arrow opens guide in fullscreen PVR
 
-## Screenshots
-
 ![Main Menu](Screenshots/2.png)
 
 ## Installation
