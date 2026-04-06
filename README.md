@@ -35,7 +35,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 
 ## Installation
 
-### Method 1: Install via File Manager (Recommended for updates)
+### Method 1: Install via File Manager
 
 This method allows the addon to self-update automatically.
 
