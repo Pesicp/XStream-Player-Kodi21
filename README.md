@@ -1,9 +1,143 @@
 # XStream Player
-A Kodi addon for Xtream Codes and M3U playlist playback with organized categories, EPG support, and PVR integration.
+
+> **Advanced IPTV player for Kodi with PVR integration, multi-profile support, and intelligent content management.** A powerful addon for Xtream Codes and M3U playlist playback with organized categories, EPG support, and seamless Kodi integration.
+
+![Kodi](https://img.shields.io/badge/Kodi-21+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20iOS-lightgrey.svg)
+
 <div align="center">
-    <img src="Screenshots/1.png" width="25%">
-  </div>
-  
+  <img src="Screenshots/1.png" width="25%">
+</div>
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Installation](#installation)
+- [What's New](#whats-new)
+- [Features](#features)
+- [Auto-Updates](#auto-updates)
+- [Setup](#setup)
+- [Settings](#settings)
+- [Tools](#tools)
+- [Requirements](#requirements)
+- [License](#license)
+
+---
+
+## Overview
+
+XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and Series via Xtream Codes API or M3U playlists. Built for power users who demand organization, control, and seamless integration with Kodi's native PVR system.
+
+---
+
+## Installation
+
+### Method 1: Install via File Manager (Recommended for updates)
+
+This method allows the addon to self-update automatically.
+
+1. In Kodi, go to **Settings > File Manager**
+2. Select **Add Source**
+3. Enter the URL: `https://pesicp.github.io/XStream-Player-Kodi21/releases/`
+4. Enter a name: `XStream`
+5. Click **OK**
+6. Go to **Settings > Add-ons > Install from ZIP file**
+7. Select the `XStream` source you just added
+8. Click on `plugin.video.xstream-player-*.*.*.zip` (latest version)
+9. The addon will install and auto-update on future launches!
+
+### Method 2: Direct ZIP Install
+
+1. Download the latest `plugin.video.xstream-player-*.*.*.zip` from the [releases page](https://github.com/Pesicp/XStream-Player-Kodi21/releases)
+2. In Kodi, go to **Settings > Add-ons > Install from ZIP file**
+3. Select the downloaded ZIP
+4. PVR IPTV Simple Client will be installed automatically
+
+---
+
+### 📺 Live TV Enhancements
+
+| Feature | Description |
+|---------|-------------|
+| **Dual Live TV Modes** | Choose between native PVR integration or classic in-addon browsing |
+| **PVR Favorites Manager** | Create custom favorite groups that appear in Kodi's PVR channel panel |
+| **Catchup/Replay in PVR** | Watch past programs directly from the PVR guide (provider support required) |
+| **PVR Keyboard Shortcuts** | Left arrow opens channel list, Right arrow opens guide in fullscreen PVR |
+| **EPG Auto-Detection** | Automatically fetch TV guide from your Xtream provider |
+
+### 👥 Multi-Profile System
+
+| Feature | Description |
+|---------|-------------|
+| **10 Independent Profiles** | Each with separate credentials, favorites, and settings |
+| **Per-Profile Data Loading** | Toggle Live TV, Movies, and Series per profile |
+| **Per-Profile Caching** | Each profile has its own isolated data cache |
+| **Per-Profile Content Hiding** | Hide/unhide categories and items per profile |
+| **Quick Profile Switcher** | Switch profiles instantly from the Tools menu |
+
+### ⭐ Favorites System
+
+| Category | Feature |
+|----------|---------|
+| **PVR Favorites** | Create groups that appear as "★ Favorites - GroupName" in PVR |
+| **Classic Favorites** | Custom groups for Live TV, Movies, and Series |
+| **Context Menu Integration** | Add items to favorites from anywhere in the addon |
+| **M3U Export** | Export favorite groups to M3U playlists |
+| **Multiselect Management** | Add/remove multiple items at once |
+
+### 🔒 Parental Control & Filtering
+
+| Feature | Description |
+|---------|-------------|
+| **PIN Protection** | Lock Settings, Tools, and adult content per type |
+| **Adult Content Filtering** | Comprehensive keyword detection (works without PIN) |
+| **Per-Type Locks** | Separate locks for Live TV, Movies, and Series |
+| **Visual Indicators** | Lock icons on protected categories |
+
+### 🛠️ Content Management
+
+| Feature | Description |
+|---------|-------------|
+| **Hide/Unhide Categories** | Manage visibility for Live TV, Movies, and Series |
+| **Hide Individual Items** | Hide specific channels, movies, or episodes |
+| **Hidden Items View** | See all hidden items in one place for easy restoration |
+| **Select All/Deselect All** | Bulk operations for hiding/unhiding |
+| **Main Menu Customization** | Show/hide any main menu item |
+
+### 📊 Playback & Performance
+
+| Feature | Description |
+|---------|-------------|
+| **Built-in Buffer Settings** | Configurable size and read factor for stable playback |
+| **Custom User-Agent** | Override for streams that require specific agents |
+| **Stream Timeout** | Configurable timeout for unresponsive streams |
+| **Auto-Refresh Data** | Automatic channel data refresh at set intervals |
+| **Cache Management** | Clear cache, EPG, TMDB, or watch history selectively |
+
+### 🎬 Metadata & Organization
+
+| Feature | Description |
+|---------|-------------|
+| **TMDB Integration** | Fetch movie plots and posters (requires free API key) |
+| **Watch History** | Resume playback support across all content types |
+| **Watched Status** | Track viewed episodes and movies |
+| **Search** | Universal search across Live TV, Movies, and Series |
+| **Sorting Options** | Provider order or A-Z sorting |
+
+### 🔄 Auto-Update System
+
+| Feature | Description |
+|---------|-------------|
+| **Built-in Updater** | Check for updates on startup or schedule |
+| **One-Click Install** | Download and install updates automatically |
+| **Version Revert** | Downgrade to previous versions if needed |
+| **Update Notifications** | Prompt on startup when updates available |
+
+---
+
 ## Features
 
 - **Live TV - PVR** with EPG guide and Kodi's native PVR integration
@@ -29,28 +163,6 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 
 ![Main Menu](Screenshots/2.png)
 
-## Installation
-
-### Method 1: Install via File Manager (Recommended for updates)
-
-This method allows the addon to self-update automatically.
-
-1. In Kodi, go to **Settings > File Manager**
-2. Select **Add Source**
-3. Enter the URL: `https://pesicp.github.io/XStream-Player-Kodi21/releases/`
-4. Enter a name: `XStream`
-5. Click **OK**
-6. Go to **Settings > Add-ons > Install from ZIP file**
-7. Select the `XStream` source you just added
-8. Click on `plugin.video.xstream-player-*.*.*.zip` (latest version)
-9. The addon will install and auto-update on future launches!
-
-### Method 2: Direct ZIP Install
-
-1. Download the latest `plugin.video.xstream-player-*.*.*.zip` from the [releases page](https://github.com/Pesicp/XStream-Player-Kodi21/releases)
-2. In Kodi, go to **Settings > Add-ons > Install from ZIP file**
-3. Select the downloaded ZIP
-4. PVR IPTV Simple Client will be installed automatically
 ---
 
 ## Auto-Updates
@@ -68,10 +180,11 @@ Go to **Settings > Updates** to configure:
 - **Auto-check interval**: Never / On Startup / Daily / Weekly / Monthly
 - **Check for Updates**: Manual check button
 - **Revert to Older Version**: Downgrade to a previous version if needed
+
 ---
 
 ## Setup
-![Settings](Screenshots/4.png)
+
 1. Open **XStream Player** from your Video Add-ons
 2. Go to **Tools > Settings**
 3. Under **Profiles**, enter your Xtream server URL, username, and password (or M3U URL)
@@ -80,7 +193,7 @@ Go to **Settings > Updates** to configure:
 6. After restart, open XStream Player — your Live TV, Movies, and Series are ready
 
 > **Note:** After switching profiles, you need to use **Refresh List** to load the new profile's data.
----
+![Settings](Screenshots/4.png)
 
 ### Live TV Modes
 
@@ -88,7 +201,6 @@ The main menu shows two Live TV options:
 
 - **Live TV - PVR** — Uses Kodi's native PVR with full channel guide, zapping, and EPG. Requires a Kodi restart after first setup.
 - **Live TV - Classic** — Browse and play channels directly within the addon. No restart needed.
----
 
 ### Favorites Manager - PVR
 
@@ -107,7 +219,6 @@ Create custom favorites groups from the main menu. Each group can hold a mix of 
 - Right-click any item anywhere (Classic, Movies, Series) to add it to a custom group
 - Rename, export, or delete groups from the Favorites Manager
 - Groups appear in context menus across the entire addon
----
 
 ### Per-Profile Data Separation
 
@@ -127,7 +238,6 @@ Each profile has toggles to enable/disable loading of Live TV, Movies, and Serie
 - Its menu items are hidden from the main menu
 - Guide and Replay are also hidden when Live TV is disabled
 - Already-favorited items remain accessible from custom groups
----
 
 ### Manage Content (Hide/Unhide)
 
@@ -137,9 +247,10 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 - Hidden items are excluded from PVR sync and all listings — they are not loaded at all
 - "Hidden Items" at the top shows all individually hidden items for easy unhiding
 - All hidden data is per-profile
+
 ---
 
-## Settings Overview
+## Settings
 
 ### Profile
 - **Active Profile** — Switch between up to 10 profiles, each with its own credentials
@@ -191,8 +302,12 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 - **Backup profiles & data** — Save your profiles and settings
 - **Restore profiles & data** — Restore from a previous backup
 
-## Tools Menu
+---
+
+## Tools
+
 ![Tools Menu](Screenshots/3.png)
+
 - **Settings** — Open addon settings
 - **Refresh List** — Reload all data from provider, clears cache, shows progress, and offers restart
 - **Main Menu Items** — Show/hide main menu items
@@ -202,10 +317,13 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 - **Test Connection** — Verify provider connectivity
 - **Account Info** — View account details and expiry
 
+---
+
 ## Requirements
 
 - Kodi 21 (Omega) or later
 - PVR IPTV Simple Client (installed automatically)
+
 ---
 
 ## License
