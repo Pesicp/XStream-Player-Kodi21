@@ -57,7 +57,7 @@ This method allows the addon to self-update automatically.
 2. In Kodi, go to **Settings > Add-ons > Install from ZIP file**
 3. Select the downloaded ZIP
 4. PVR IPTV Simple Client will be installed automatically
-
+---
 ## Auto-Updates
 
 XStream Player includes a built-in update system. When a new version is available:
@@ -73,7 +73,7 @@ Go to **Settings > Updates** to configure:
 - **Auto-check interval**: Never / On Startup / Daily / Weekly / Monthly
 - **Check for Updates**: Manual check button
 - **Revert to Older Version**: Downgrade to a previous version if needed
-
+---
 ## Setup
 
 1. Open **XStream Player** from your Video Add-ons
@@ -84,14 +84,14 @@ Go to **Settings > Updates** to configure:
 6. After restart, open XStream Player — your Live TV, Movies, and Series are ready
 
 > **Note:** After switching profiles, you need to use **Refresh List** to load the new profile's data.
-
+---
 ### Live TV Modes
 
 The main menu shows two Live TV options:
 
 - **Live TV - PVR** — Uses Kodi's native PVR with full channel guide, zapping, and EPG. Requires a Kodi restart after first setup.
 - **Live TV - Classic** — Browse and play channels directly within the addon. No restart needed.
-
+---
 ### Favorites Manager - PVR
 
 Create custom PVR favorite groups from the main menu. Each group appears as a channel group in Kodi's PVR left panel via a dedicated second PVR instance.
