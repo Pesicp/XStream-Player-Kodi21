@@ -3,6 +3,7 @@ A Kodi addon for Xtream Codes and M3U playlist playback with organized categorie
 <div align="center">
     <img src="Screenshots/1.png" width="25%">
   </div>
+  
 ## Features
 
 - **Live TV - PVR** with EPG guide and Kodi's native PVR integration
