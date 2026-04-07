@@ -55,7 +55,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 4. PVR IPTV Simple Client will be installed automatically
 
 ---
-## Whats New
+## What's New
 
 ### 📺 Live TV Enhancements
 
@@ -104,7 +104,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Hide Individual Items** | Hide specific channels, movies, or episodes |
 | **Hidden Items View** | See all hidden items in one place for easy restoration |
 | **Select All/Deselect All** | Bulk operations for hiding/unhiding |
-| **Main Menu Customization** | Show/hide and reorder any main menu item |
+| **Main Menu Customization** | Show/hide AND reorder any main menu item. Changes apply instantly |
 
 ### 📊 Playback & Performance
 
@@ -120,11 +120,11 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 
 | Feature | Description |
 |---------|-------------|
-| **TMDB Integration** | Fetch movie plots and posters (requires free API key) |
+| **TMDB Integration** | Fetch movie plots and posters (requires free API key). Separate toggles for plots vs posters |
 | **Watch History** | Resume playback support across all content types |
 | **Recently Watched** | Quick access folders in Movies, Series, and Live TV sections |
 | **Continue Watching** | Resume unfinished episodes directly from Series menu |
-| **Watched Status** | Track viewed episodes and movies |
+| **Watched Status** | Track viewed episodes and movies. Per-profile storage with easy clear options |
 | **Search** | Universal search across Live TV, Movies, and Series |
 | **Sorting Options** | Provider order or A-Z sorting |
 
@@ -310,6 +310,7 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 - **Show Favorites in sections** — Toggle favorites visibility in Movies, Series, and Live TV
 - **Show Recently Watched in sections** — Toggle Recently Watched folders on/off
 - **TMDB metadata** — Fetch movie plots and posters from TMDB (requires free API key from themoviedb.org)
+- **TMDB plots only** — Fetch only plot/info without changing posters
 
 ### Addon Groups
 - **Enable Group 1-5** — Toggle which groups appear in the main menu
@@ -334,9 +335,9 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 - **Settings** — Open addon settings
 - **Refresh List** — Reload all data from provider, clears cache, shows progress, and offers restart
 - **Main Menu Items** — Show/hide main menu items
-- **Reorder Main Menu** — Drag and drop to reorder menu items
+- **Reorder Main Menu** — Reorder any main menu item. Select item → select "Before: [item]" or "Move to End" → confirm. Updates main menu instantly.
 - **Hide Content Categories** — Hide/unhide categories and individual items with Hide All / Unhide All buttons and Select All / Deselect All in multiselect
-- **Clear Cache** — Clear all cache, EPG, channel, TMDB, or watch history
+- **Clear Cache/History** — Clear cache, EPG, channel, TMDB, watch history, OR watched content (Movies/Series/Live TV)
 - **Switch Profile** — Quick profile switcher
 - **Test Connection** — Verify provider connectivity
 - **Account Info** — View account details and expiry
