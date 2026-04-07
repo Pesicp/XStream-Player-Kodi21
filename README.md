@@ -138,6 +138,9 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Empty Group Indicator** | Gray text shows when group is empty with settings link |
 | **Auto-Refresh** | Main menu updates when you add or remove addons |
 | **Restart Notification** | Reminds you to restart Kodi after adding addons |
+![Main Menu](Screenshots/5.png)
+![Main Menu](Screenshots/6.png)
+![Main Menu](Screenshots/7.png)
 
 ### 🔄 Auto-Update System
 
