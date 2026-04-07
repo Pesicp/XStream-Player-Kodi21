@@ -57,6 +57,17 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 ---
 ## What's New
 
+### Latest Update (v1.1.0)
+
+| Feature | Description |
+|---------|-------------|
+| **Main Menu Reorder** | Seamlessly reorder all main menu items. Pick item → pick destination → done. Updates instantly. |
+| **Watched Content Management** | Clear watched status for Movies, Series, or Live TV individually from Tools menu |
+| **Movie Watched Markers Fixed** | Fixed bug where movie watched status wasn't persisting |
+| **TMDB Plot-Only Option** | New setting to fetch only plot/info from TMDB without changing posters |
+| **Auto-Show Changelog** | Changelog pops up automatically after update (toggle in Settings) |
+| **View Changelog Button** | Manual changelog viewer in Settings → Updates |
+
 ### 📺 Live TV Enhancements
 
 | Feature | Description |
