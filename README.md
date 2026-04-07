@@ -37,8 +37,6 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 
 ### Method 1: Install via File Manager
 
-This method allows the addon to self-update automatically.
-
 1. In Kodi, go to **Settings > File Manager**
 2. Select **Add Source**
 3. Enter the URL: `https://pesicp.github.io/XStream-Player-Kodi21/releases/`
@@ -281,7 +279,7 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 ### PVR & Data
 - **Auto-sync Live TV to PVR** — Automatically update PVR channels on refresh
 - **Force PVR reload on addon launch** — Ensures PVR is active when opening the addon
-- **Enable catchup in PVR** — Watch past programs from the PVR guide (channels with "R" marker)
+- **Enable catchup in PVR** — Watch past programs from the PVR guide, if your provider supports it
 - **Catchup days** — How many days back catchup is available (1-14, default 7)
 - **Auto-refresh data** — Automatically refresh channel data at set intervals
 - **Auto-refresh interval** — How often to refresh (12h, 24h, 48h, or Never)
