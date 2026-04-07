@@ -104,7 +104,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Hide Individual Items** | Hide specific channels, movies, or episodes |
 | **Hidden Items View** | See all hidden items in one place for easy restoration |
 | **Select All/Deselect All** | Bulk operations for hiding/unhiding |
-| **Main Menu Customization** | Show/hide any main menu item |
+| **Main Menu Customization** | Show/hide and reorder any main menu item |
 
 ### 📊 Playback & Performance
 
@@ -122,9 +122,22 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 |---------|-------------|
 | **TMDB Integration** | Fetch movie plots and posters (requires free API key) |
 | **Watch History** | Resume playback support across all content types |
+| **Recently Watched** | Quick access folders in Movies, Series, and Live TV sections |
+| **Continue Watching** | Resume unfinished episodes directly from Series menu |
 | **Watched Status** | Track viewed episodes and movies |
 | **Search** | Universal search across Live TV, Movies, and Series |
 | **Sorting Options** | Provider order or A-Z sorting |
+
+### 📦 Addon Groups
+
+| Feature | Description |
+|---------|-------------|
+| **Custom Addon Groups** | Create up to 5 groups of your favorite Kodi addons |
+| **Group 1 Enabled by Default** | Ready to use out of the box |
+| **Smart Group Behavior** | Single addon opens directly; multiple addons show list |
+| **Empty Group Indicator** | Gray text shows when group is empty with settings link |
+| **Auto-Refresh** | Main menu updates when you add or remove addons |
+| **Restart Notification** | Reminds you to restart Kodi after adding addons |
 
 ### 🔄 Auto-Update System
 
@@ -150,6 +163,9 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 - **Manage content per profile** — hide/unhide categories or individual channels, movies, and series from within profile settings
 - **Search** across Live TV, Movies, and Series
 - **Watch History** with resume playback support
+- **Recently Watched** folders in Movies, Series, and Live TV for quick access
+- **Continue Watching** folder in Series to resume unfinished episodes
+- **Addon Groups** - create custom groups of Kodi addons (Group 1 enabled by default)
 - **Parental Control** with PIN lock for Settings, Tools, and adult content per type (Live TV, Movies, Series)
 - **Adult content filtering** with comprehensive keyword detection (works independently of PIN lock)
 - **TMDB integration** for movie metadata (optional)
@@ -288,7 +304,14 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 
 ### Appearance
 - **Default sort order** — Sort channels by provider order or A-Z
+- **Show Favorites in sections** — Toggle favorites visibility in Movies, Series, and Live TV
+- **Show Recently Watched in sections** — Toggle Recently Watched folders on/off
 - **TMDB metadata** — Fetch movie plots and posters from TMDB (requires free API key from themoviedb.org)
+
+### Addon Groups
+- **Enable Group 1-5** — Toggle which groups appear in the main menu
+- **Rename Group** — Give each group a custom name
+- **Select Addons** — Choose which Kodi addons appear in each group
 
 ### Parental Control
 - **Hide adult categories** — Filter out adult content using comprehensive keyword detection (works without PIN)
@@ -308,6 +331,7 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 - **Settings** — Open addon settings
 - **Refresh List** — Reload all data from provider, clears cache, shows progress, and offers restart
 - **Main Menu Items** — Show/hide main menu items
+- **Reorder Main Menu** — Drag and drop to reorder menu items
 - **Hide Content Categories** — Hide/unhide categories and individual items with Hide All / Unhide All buttons and Select All / Deselect All in multiselect
 - **Clear Cache** — Clear all cache, EPG, channel, TMDB, or watch history
 - **Switch Profile** — Quick profile switcher
