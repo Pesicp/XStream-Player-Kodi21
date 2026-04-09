@@ -57,7 +57,13 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 ---
 ## What's New
 
-### Latest Update (v1.1.0)
+### Latest Update (v1.1.2)
+
+| Feature | Description |
+|---------|-------------|
+| **16 Languages** | Full support for EN, HR, DE, FR, ES, IT, PT, RU, PL, AR, CS, NL, EL, HU, RO, SV |
+
+### v1.1.0
 
 | Feature | Description |
 |---------|-------------|
@@ -280,6 +286,9 @@ Each profile has **Manage Live TV / Movies / Series content** buttons in Setting
 ---
 
 ## Settings
+
+### Language
+- **Interface Language** — Switch between 16 ui languages, only settings remain in english
 
 ### Profile
 - **Active Profile** — Switch between up to 10 profiles, each with its own credentials
