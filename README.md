@@ -55,13 +55,6 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 4. PVR IPTV Simple Client will be installed automatically
 
 ---
-## What's New
-
-### Latest Update (v1.1.2)
-
-| Feature | Description |
-|---------|-------------|
-| **16 Languages** | Full support for EN, HR, DE, FR, ES, IT, PT, RU, PL, AR, CS, NL, EL, HU, RO, SV |
 
 ### 📺 Live TV Enhancements
 
