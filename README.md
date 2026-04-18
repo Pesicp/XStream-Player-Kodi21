@@ -33,7 +33,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 
 ## Installation
 
-### Method 1: Install via File Manager
+### Install via File Manager
 
 1. In Kodi, go to **Settings > File Manager**
 2. Select **Add Source**
@@ -43,14 +43,6 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 6. Go to **Settings > Add-ons > Install from ZIP file**
 7. Select the `XStream` source you just added
 8. Click on `plugin.video.xstream-player-*.*.*.zip` (latest version)
-9. The addon will install and auto-update on future launches!
-
-### Method 2: Direct ZIP Install
-
-1. Download the latest `plugin.video.xstream-player-*.*.*.zip` from the [releases page](https://github.com/Pesicp/XStream-Player-Kodi21/releases)
-2. In Kodi, go to **Settings > Add-ons > Install from ZIP file**
-3. Select the downloaded ZIP
-4. PVR IPTV Simple Client will be installed automatically
 
 ## Setup
 
