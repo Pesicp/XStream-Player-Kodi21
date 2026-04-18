@@ -55,8 +55,6 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 5. When prompted, restart Kodi for PVR Live TV to work properly
 6. After restart, open XStream Player — your Live TV, Movies, and Series are ready
 
-> **Note:** After switching profiles, you need to use **Refresh profile data** to load the new profile's or all active profiles data.
-
 ---
 
 ## Content
