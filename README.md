@@ -1,8 +1,10 @@
 # XStream Player
 
-> **Advanced IPTV player for Kodi with PVR integration, multi-profile support, and intelligent content management.** A powerful addon for Xtream Codes and M3U playlist playback with organized categories, EPG support, and seamless Kodi integration.
+> **Advanced IPTV player for Kodi with PVR integration, multi-profile support, and intelligent content management.** A powerful addon for Xtream Codes and M3U playlist playback with organized categories, PVR, EPG support, and seamless Kodi integration.
 
-![Kodi](https://img.shields.io/badge/Kodi-21+-blue.svg)
+![Kodi](https://img.shields.io/badge/Kodi-21%20Omega-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20iOS-lightgrey.svg)
 
 <div align="center">
@@ -15,12 +17,10 @@
 
 - [Overview](#overview)
 - [Installation](#installation)
-- [What's New](#whats-new)
+- [Setup](#setup)
+- [Content](#content)
 - [Features](#features)
 - [Auto-Updates](#auto-updates)
-- [Setup](#setup)
-- [Settings](#settings)
-- [Tools](#tools)
 - [Requirements](#requirements)
 - [License](#license)
 
@@ -53,23 +53,49 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 3. Select the downloaded ZIP
 4. PVR IPTV Simple Client will be installed automatically
 
+## Setup
+
+1. Open **XStream Player** from your Video Add-ons
+2. Go to **Tools > Settings**
+3. Under **Profiles**, configure your source:
+   - **Xtream Codes**: Enter server URL, username, and password
+   - **M3U Playlist**: Enter M3U URL (with or without credentials)
+4. Go back and select **Refresh List** to load your channels
+5. When prompted, restart Kodi for PVR Live TV to work properly
+6. After restart, open XStream Player — your Live TV, Movies, and Series are ready
+
+> **Note:** After switching profiles, you need to use **Refresh profile data** to load the new profile's or all active profiles data.
+
 ---
+
+## Content
 
 ### 📺 Live TV Enhancements
 
 | Feature | Description |
 |---------|-------------|
-| **Dual Live TV Modes** | Choose between native PVR integration or classic in-addon browsing |
+| **Dual Live TV Modes** | Choose between native PVR integration or Classic in-addon browsing, both with EPG|
 | **PVR Favorites Manager** | Create custom favorite groups that appear in Kodi's PVR channel panel |
 | **Catchup/Replay in PVR** | Watch past programs directly from the PVR guide (provider support required) |
 | **PVR Keyboard Shortcuts** | Left arrow opens channel list, Right arrow opens guide in fullscreen PVR |
 | **EPG Auto-Detection** | Automatically fetch TV guide from your Xtream provider |
+
+### 📄 M3U Playlist Support
+
+| Feature | Description |
+|---------|-------------|
+| **M3U with Xtream Credentials** | M3U URLs containing username/password are auto-converted to Xtream format for full API access |
+| **Pure M3U Mode** | Simple M3U playlists without credentials - direct channel list with Favorites and Search |
+| **EPG for M3U** | Dedicated EPG URL field for M3U sources, separate from Xtream EPG |
+| **Smart Source Detection** | Addon automatically detects credential presence and switches to appropriate mode |
 
 ### 👥 Multi-Profile System
 
 | Feature | Description |
 |---------|-------------|
 | **10 Independent Profiles** | Each with separate credentials, favorites, and settings |
+| **Per-Profile Source Type** | Each profile can use Xtream Codes or M3U playlist |
+| **Source-Specific EPG** | Separate EPG URL configuration for M3U vs Xtream per profile |
 | **Per-Profile Data Loading** | Toggle Live TV, Movies, and Series per profile |
 | **Per-Profile Caching** | Each profile has its own isolated data cache |
 | **Per-Profile Content Hiding** | Hide/unhide categories and items per profile |
@@ -79,9 +105,9 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 
 | Category | Feature |
 |----------|---------|
-| **PVR Favorites** | Create groups that appear as "★ Favorites - GroupName" in PVR |
-| **Classic Favorites** | Custom groups for Live TV, Movies, and Series |
-| **Context Menu Integration** | Add items to favorites from anywhere in the addon |
+| **Favorites Manager - PVR** | Create groups that appear as "★ Favorites - GroupName" in PVR |
+| **Favorites Manager - Profiles** | Custom groups for Live TV, Movies, Series across al 10 profiles |
+| **Context Menu Integration** | Add items to favorites from all profiles in the addon |
 | **M3U Export** | Export favorite groups to M3U playlists |
 | **Multiselect Management** | Add/remove multiple items at once |
 
@@ -102,7 +128,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Hide Individual Items** | Hide specific channels, movies, or episodes |
 | **Hidden Items View** | See all hidden items in one place for easy restoration |
 | **Select All/Deselect All** | Bulk operations for hiding/unhiding |
-| **Main Menu Customization** | Show/hide AND reorder any main menu item. Changes apply instantly |
+| **Main Menu Customization** | Show/hide AND reorder any main menu item |
 
 ### 📊 Playback & Performance
 
@@ -123,8 +149,6 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Recently Watched** | Quick access folders in Movies, Series, and Live TV sections |
 | **Continue Watching** | Resume unfinished episodes directly from Series menu |
 | **Watched Status** | Track viewed episodes and movies. Per-profile storage with easy clear options |
-| **Search** | Universal search across Live TV, Movies, and Series |
-| **Sorting Options** | Provider order or A-Z sorting |
 
 ### 📦 Addon Groups
 
@@ -134,11 +158,6 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Group 1 Enabled by Default** | Ready to use out of the box |
 | **Smart Group Behavior** | Single addon opens directly; multiple addons show list |
 | **Empty Group Indicator** | Gray text shows when group is empty with settings link |
-| **Auto-Refresh** | Main menu updates when you add or remove addons |
-| **Restart Notification** | Reminds you to restart Kodi after adding addons |
-![Main Menu](Screenshots/5.png)
-![Main Menu](Screenshots/6.png)
-![Main Menu](Screenshots/7.png)
 
 ### 🔄 Auto-Update System
 
@@ -153,84 +172,25 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 
 ## Features
 
-- **Live TV - PVR** with EPG guide and Kodi's native PVR integration
-- **Live TV - Classic** with in-addon channel browsing
-- **Favorites Manager - PVR** — create custom PVR favorite groups that appear in Kodi's PVR channel panel (via a dedicated PVR instance)
-- **Favorites - Classic, Movies, Series** — custom favorites groups with context menu integration and M3U export
 - **Movies** with plot info and poster art
 - **Series** with season/episode tracking and watched status
 - **Replay / Catchup** for channels with archive support
-- **10 Profiles** with independent credentials, favorites, PVR favorites, hidden items, and per-profile data loading toggles
-- **Manage content per profile** — hide/unhide categories or individual channels, movies, and series from within profile settings
-- **Search** across Live TV, Movies, and Series
-- **Watch History** with resume playback support
-- **Recently Watched** folders in Movies, Series, and Live TV for quick access
-- **Continue Watching** folder in Series to resume unfinished episodes
-- **Addon Groups** - create custom groups of Kodi addons (Group 1 enabled by default)
-- **Parental Control** with PIN lock for Settings, Tools, and adult content per type (Live TV, Movies, Series)
-- **Adult content filtering** with comprehensive keyword detection (works independently of PIN lock)
-- **TMDB integration** for movie metadata (optional)
-- **Buffer settings** built-in with configurable size and read factor
-- **Subcategory hiding** for Live TV, Movies, and Series with Select All / Deselect All
-- **Catchup / Replay in PVR** — watch past programs directly from the PVR guide (provider support required)
+- **Search** across Live TV, Movies, and Series in all configured profiles
 - **Per-profile caching** — each profile has its own data cache
-- **Auto-refresh** and data caching for fast navigation
-- **PVR keyboard shortcuts** — Left arrow opens channel list, Right arrow opens guide in fullscreen PVR
-
-![Main Menu](Screenshots/2.png)
-
----
-
-## Auto-Updates
-
-XStream Player includes a built-in update system. When a new version is available:
-
-- **On startup**, you'll see a prompt: "Install Now" or "Later"
-- Click **Install Now** to automatically download and install the update
-- Click **Later** to skip and be reminded next time
-- After installation, restart Kodi to apply the update
-
-### Configure Update Checks
-
-Go to **Settings > Updates** to configure:
-- **Auto-check interval**: Never / On Startup / Daily / Weekly / Monthly
-- **Check for Updates**: Manual check button
-- **Revert to Older Version**: Downgrade to a previous version if needed
-
----
-
-## Setup
-
-1. Open **XStream Player** from your Video Add-ons
-2. Go to **Tools > Settings**
-3. Under **Profiles**, enter your Xtream server URL, username, and password (or M3U URL)
-4. Go back and select **Refresh List** to load your channels
-5. When prompted, restart Kodi for PVR Live TV to work properly
-6. After restart, open XStream Player — your Live TV, Movies, and Series are ready
-
-> **Note:** After switching profiles, you need to use **Refresh List** to load the new profile's data.
-![Settings](Screenshots/4.png)
-
-### Live TV Modes
-
-The main menu shows two Live TV options:
-
-- **Live TV - PVR** — Uses Kodi's native PVR with full channel guide, zapping, and EPG. Requires a Kodi restart after first setup.
-- **Live TV - Classic** — Browse and play channels directly within the addon. No restart needed.
+- **PVR keyboard shortcuts** — Left - channel list, Right - guide, only in fullscreen PVR
 
 ### Favorites Manager - PVR
 
-Create custom PVR favorite groups from the main menu. Each group appears as a channel group in Kodi's PVR left panel via a dedicated second PVR instance.
+Create custom PVR favorite groups. Each group appears as a channel group in Kodi's PVR left panel via a dedicated second PVR instance.
 
 - Create groups and populate them by browsing categories or searching channels
 - Add entire categories or pick individual channels via multiselect
 - Manage existing channels in each group (add/remove via multiselect)
 - Groups appear in PVR as "★ Favorites - GroupName"
-- Rename or delete groups from the context menu
 
-### Favorites - Classic, Movies, Series
+### Favorites Manager - IPTV - Live TV, Movies, Series
 
-Create custom favorites groups from the main menu. Each group can hold a mix of live channels, movies, and series. Items are organized by type inside each group.
+Create custom favorites groups. Each group can hold a mix of live channels, movies, and series from all 10 profiles. Items are organized by type inside each group. Live TV, Movies, Series
 
 - Right-click any item anywhere (Classic, Movies, Series) to add it to a custom group
 - Rename, export, or delete groups from the Favorites Manager
@@ -246,9 +206,9 @@ Each of the 10 profiles has completely independent:
 - Visible main menu items
 - Data loading toggles (Live TV, Movies, Series)
 
-### Data Loading Toggles
+### Data Loading
 
-Each profile has toggles to enable/disable loading of Live TV, Movies, and Series data. When a category is disabled:
+Each profile can enable/disable loading of Live TV, Movies, and Series data. When a category is disabled:
 
 - Its data is not fetched from the server during refresh
 - Its menu items are hidden from the main menu
@@ -257,92 +217,11 @@ Each profile has toggles to enable/disable loading of Live TV, Movies, and Serie
 
 ### Manage Content (Hide/Unhide)
 
-Each profile has **Manage Live TV / Movies / Series content** buttons in Settings > Profiles. You can also access this from Tools > Hide Content Categories.
+Each profile has **Manage content** buttons in Settings > Profiles.
 
 - Browse categories and hide entire categories or individual items
 - Hidden items are excluded from PVR sync and all listings — they are not loaded at all
 - "Hidden Items" at the top shows all individually hidden items for easy unhiding
-- All hidden data is per-profile
-
----
-
-## Settings
-
-### Language
-- **Interface Language** — Switch between 16 ui languages, only settings remain in english
-
-### Profile
-- **Active Profile** — Switch between up to 10 profiles, each with its own credentials
-
-### Profiles
-- **Source Type** — Xtream Codes or M3U
-- **Server URL / Username / Password** — Provider credentials
-- **EPG URL** — Optional custom EPG source
-- **Load Live TV / Movies / Series** — Toggle which content types to fetch and display
-- **Manage Live TV / Movies / Series content** — Hide/unhide categories and individual items
-
-### Playback & Buffer
-- **Stream timeout** — How long to wait before giving up on a stream (default 15s)
-- **Custom User-Agent** — Override the user-agent for streams that require it
-- **Enable buffer** — Optimizes Kodi's buffer for stable IPTV playback (enabled by default)
-- **Buffer size** — Amount of stream data to keep in memory (default 100 MB)
-- **Read factor** — How fast to fill the buffer relative to playback speed (default 20x)
-
-### EPG & Guide
-- **Auto-detect EPG from Xtream** — Automatically fetch the TV guide from your provider
-- **Show EPG info in Live TV** — Display current/next program info on channel listings
-- **EPG language priority** — Preferred language for guide data (e.g. `en`, `fr`)
-- **EPG refresh interval** — How often to update the guide (default every 4 hours)
-- **EPG timezone offset** — Adjust if program times are wrong
-- **Replay days back** — How many days of catchup/replay to show (default 7)
-
-### PVR & Data
-- **Auto-sync Live TV to PVR** — Automatically update PVR channels on refresh
-- **Force PVR reload on addon launch** — Ensures PVR is active when opening the addon
-- **Enable catchup in PVR** — Watch past programs from the PVR guide, if your provider supports it
-- **Catchup days** — How many days back catchup is available (1-14, default 7)
-- **Auto-refresh data** — Automatically refresh channel data at set intervals
-- **Auto-refresh interval** — How often to refresh (12h, 24h, 48h, or Never)
-- **Clear all cache on refresh** — Optionally clear all caches when using Refresh List
-- **Warn on insecure (HTTP) connections** — Optional warning for non-HTTPS provider URLs
-
-### Appearance
-- **Default sort order** — Sort channels by provider order or A-Z
-- **Show Favorites in sections** — Toggle favorites visibility in Movies, Series, and Live TV
-- **Show Recently Watched in sections** — Toggle Recently Watched folders on/off
-- **TMDB metadata** — Fetch movie plots and posters from TMDB (requires free API key from themoviedb.org)
-- **TMDB plots only** — Fetch only plot/info without changing posters
-
-### Addon Groups
-- **Enable Group 1-5** — Toggle which groups appear in the main menu
-- **Rename Group** — Give each group a custom name
-- **Select Addons** — Choose which Kodi addons appear in each group
-
-### Parental Control
-- **Hide adult categories** — Filter out adult content using comprehensive keyword detection (works without PIN)
-- **Enable parental control** — Require PIN for protected areas
-- **Lock Settings** — Require PIN to access addon settings
-- **Lock Tools** — Require PIN to access the Tools menu
-- **Lock Adult Live TV / Movies / Series** — Require PIN to enter adult categories (shown with lock icon)
-
-### Backup & Restore
-- **Backup profiles & data** — Save your profiles and settings
-- **Restore profiles & data** — Restore from a previous backup
-
----
-
-## Tools
-
-- **Settings** — Open addon settings
-- **Refresh List** — Reload all data from provider, clears cache, shows progress, and offers restart
-- **Main Menu Items** — Show/hide main menu items
-- **Reorder Main Menu** — Reorder any main menu item. Select item → select "Before: [item]" or "Move to End" → confirm. Updates main menu instantly.
-- **Hide Content Categories** — Hide/unhide categories and individual items with Hide All / Unhide All buttons and Select All / Deselect All in multiselect
-- **Clear Cache/History** — Clear cache, EPG, channel, TMDB, watch history, OR watched content (Movies/Series/Live TV)
-- **Switch Profile** — Quick profile switcher
-- **Test Connection** — Verify provider connectivity
-- **Account Info** — View account details and expiry
-![Tools Menu](Screenshots/3.png)
 
 ---
 
