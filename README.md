@@ -1,9 +1,10 @@
 # XStream Player
 
-> **Advanced IPTV player for Kodi with PVR integration, multi-profile support, and intelligent content management.** A powerful addon for Xtream Codes and M3U playlist playback with organized categories, PVR, EPG support, and seamless Kodi integration.
+> **Advanced IPTV player for Kodi with PVR integration, multi-profile support, and intelligent content management.** A powerful addon for Xtream Codes and M3U playlist playback with organized categories, EPG support, and seamless Kodi integration.
 
 ![Kodi](https://img.shields.io/badge/Kodi-21%20Omega-blue.svg)
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20iOS-lightgrey.svg)
 
 <div align="center">
@@ -33,7 +34,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 
 ## Installation
 
-### Install via File Manager
+### Method 1: Install via File Manager
 
 1. In Kodi, go to **Settings > File Manager**
 2. Select **Add Source**
@@ -43,6 +44,14 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 6. Go to **Settings > Add-ons > Install from ZIP file**
 7. Select the `XStream` source you just added
 8. Click on `plugin.video.xstream-player-*.*.*.zip` (latest version)
+9. The addon will install and auto-update on future launches!
+
+### Method 2: Direct ZIP Install
+
+1. Download the latest `plugin.video.xstream-player-*.*.*.zip` from the [releases page](https://github.com/Pesicp/XStream-Player-Kodi21/releases)
+2. In Kodi, go to **Settings > Add-ons > Install from ZIP file**
+3. Select the downloaded ZIP
+4. PVR IPTV Simple Client will be installed automatically
 
 ## Setup
 
@@ -54,6 +63,8 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 4. Go back and select **Refresh List** to load your channels
 5. When prompted, restart Kodi for PVR Live TV to work properly
 6. After restart, open XStream Player — your Live TV, Movies, and Series are ready
+
+> **Note:** After switching profiles, you need to use **Refresh profile data** to load the new profile's or all active profiles data.
 
 ---
 
@@ -83,7 +94,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | Feature | Description |
 |---------|-------------|
 | **10 Independent Profiles** | Each with separate credentials, favorites, and settings |
-| **Per-Profile Source Type** | Each profile can use Xtream Codes or M3U playlist |
+| **Per-Profile Source Type** | Each profile can use Xtream Codes OR M3U playlist (independent choice) |
 | **Source-Specific EPG** | Separate EPG URL configuration for M3U vs Xtream per profile |
 | **Per-Profile Data Loading** | Toggle Live TV, Movies, and Series per profile |
 | **Per-Profile Caching** | Each profile has its own isolated data cache |
@@ -95,8 +106,8 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | Category | Feature |
 |----------|---------|
 | **Favorites Manager - PVR** | Create groups that appear as "★ Favorites - GroupName" in PVR |
-| **Favorites Manager - Profiles** | Custom groups for Live TV, Movies, Series across al 10 profiles |
-| **Context Menu Integration** | Add items to favorites from all profiles in the addon |
+| **Favorites Manager IPTV** | Custom groups for Live TV, Movies, and Series |
+| **Context Menu Integration** | Add items to favorites from anywhere in the addon |
 | **M3U Export** | Export favorite groups to M3U playlists |
 | **Multiselect Management** | Add/remove multiple items at once |
 
@@ -117,7 +128,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Hide Individual Items** | Hide specific channels, movies, or episodes |
 | **Hidden Items View** | See all hidden items in one place for easy restoration |
 | **Select All/Deselect All** | Bulk operations for hiding/unhiding |
-| **Main Menu Customization** | Show/hide AND reorder any main menu item |
+| **Main Menu Customization** | Show/hide AND reorder any main menu item. Changes apply instantly |
 
 ### 📊 Playback & Performance
 
@@ -138,6 +149,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Recently Watched** | Quick access folders in Movies, Series, and Live TV sections |
 | **Continue Watching** | Resume unfinished episodes directly from Series menu |
 | **Watched Status** | Track viewed episodes and movies. Per-profile storage with easy clear options |
+| **Provider Metadata** | Disable movies and series separatly, for users that want faster experience |
 
 ### 📦 Addon Groups
 
@@ -147,6 +159,8 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Group 1 Enabled by Default** | Ready to use out of the box |
 | **Smart Group Behavior** | Single addon opens directly; multiple addons show list |
 | **Empty Group Indicator** | Gray text shows when group is empty with settings link |
+| **Auto-Refresh** | Main menu updates when you add or remove addons |
+| **Restart Notification** | Reminds you to restart Kodi after adding addons |
 
 ### 🔄 Auto-Update System
 
@@ -167,6 +181,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 - **Search** across Live TV, Movies, and Series in all configured profiles
 - **Per-profile caching** — each profile has its own data cache
 - **PVR keyboard shortcuts** — Left - channel list, Right - guide, only in fullscreen PVR
+- **Continue watching** — Combines 10  movies and 10 series across profiles
 
 ### Favorites Manager - PVR
 
