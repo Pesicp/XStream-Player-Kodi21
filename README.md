@@ -4,7 +4,6 @@
 
 ![Kodi](https://img.shields.io/badge/Kodi-21%20Omega-blue.svg)
 ![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20iOS-lightgrey.svg)
 
 <div align="center">
