@@ -147,7 +147,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Recently Watched** | Quick access folders in Movies, Series, and Live TV sections |
 | **Continue Watching** | Resume unfinished episodes directly from Series menu |
 | **Watched Status** | Track viewed episodes and movies. Per-profile storage with easy clear options |
-| **Provider Metadata** | Disable movies and series separatly, for users that want faster experience |
+| **Provider Metadata** | Disable for movies and series separatly, for users that want faster experience |
 
 ### 📦 Addon Groups
 
@@ -157,8 +157,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **Group 1 Enabled by Default** | Ready to use out of the box |
 | **Smart Group Behavior** | Single addon opens directly; multiple addons show list |
 | **Empty Group Indicator** | Gray text shows when group is empty with settings link |
-| **Auto-Refresh** | Main menu updates when you add or remove addons |
-| **Restart Notification** | Reminds you to restart Kodi after adding addons |
+| **All Add-on Tyoes** | Not limited to video or music addons, you can add every kodi addon |
 
 ### 🔄 Auto-Update System
 
@@ -168,6 +167,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 | **One-Click Install** | Download and install updates automatically |
 | **Version Revert** | Downgrade to previous versions if needed |
 | **Update Notifications** | Prompt on startup when updates available |
+| **Auto Check Interval** | Choose from - On addon start, daily, weekly, monthly, never |
 
 ---
 
@@ -190,7 +190,7 @@ Create custom PVR favorite groups. Each group appears as a channel group in Kodi
 - Manage existing channels in each group (add/remove via multiselect)
 - Groups appear in PVR as "★ Favorites - GroupName"
 
-### Favorites Manager - IPTV - Live TV, Movies, Series
+### Favorites Manager - Profiles - Live TV, Movies, Series
 
 Create custom favorites groups. Each group can hold a mix of live channels, movies, and series from all 10 profiles. Items are organized by type inside each group. Live TV, Movies, Series
 
