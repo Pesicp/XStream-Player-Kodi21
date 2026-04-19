@@ -60,12 +60,10 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 3. Under **Profiles**, configure your source:
    - **Xtream Codes**: Enter server URL, username, and password
    - **M3U Playlist**: Enter M3U URL (with or without credentials)
-4. Go back and select **Refresh List** to load your channels
-5. When prompted, restart Kodi for PVR Live TV to work properly
-6. After restart, open XStream Player — your Live TV, Movies, and Series are ready
-
-> **Note:** After switching profiles, you need to use **Refresh profile data** to load the new profile's or all active profiles data.
-
+4. After adding your creditentials you will be offered to laod profile and sync pvr
+5. if you plan to use a list only for PVR you can unload it after PVR sync in Tools/Manage loaded profiles and PVR will work without the list 
+6. When prompted, restart Kodi for PVR Live TV to work properly
+7. After restart, open XStream Player — your Live TV, Movies, and Series are ready
 ---
 
 ## Content
