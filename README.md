@@ -173,10 +173,11 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 
 ## Features
 
+- **Addon Groups** Create up to 5 groups of your favorite Kodi addons
 - **Movies** with plot info and poster art
 - **Series** with season/episode tracking and watched status
 - **Replay / Catchup** for channels with archive support
-- **Search** across Live TV, Movies, and Series in all configured profiles
+- **Global Search** across Live TV, Movies, and Series in all configured profiles
 - **Per-profile caching** — each profile has its own data cache
 - **PVR keyboard shortcuts** — Left - channel list, Right - guide, only in fullscreen PVR
 - **Continue watching** — Combines 10  movies and 10 series across profiles
@@ -189,14 +190,15 @@ Create custom PVR favorite groups. Each group appears as a channel group in Kodi
 - Add entire categories or pick individual channels via multiselect
 - Manage existing channels in each group (add/remove via multiselect)
 - Groups appear in PVR as "★ Favorites - GroupName"
+- After adding group and populating its contetent, you must restart kodi so the group is visible
 
 ### Favorites Manager - Profiles - Live TV, Movies, Series
 
 Create custom favorites groups. Each group can hold a mix of live channels, movies, and series from all 10 profiles. Items are organized by type inside each group. Live TV, Movies, Series
 
-- Right-click any item anywhere (Classic, Movies, Series) to add it to a custom group
+- Right-click any item anywhere in any Profile 1-10 (Live TV, Movies, Series) to add it to a custom group
 - Rename, export, or delete groups from the Favorites Manager
-- Groups appear in context menus across the entire addon
+- Groups appear in context menus across the all 10 Profiles
 
 ### Per-Profile Data Separation
 
