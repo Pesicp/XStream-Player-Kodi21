@@ -32,6 +32,7 @@ XStream Player is a feature-rich Kodi addon for streaming Live TV, Movies, and S
 
 <div align="center">
   <img src="Screenshots/2.png" width="75%">
+  <img src="Screenshots/3.png" width="75%">
 </div>
 
 ---
