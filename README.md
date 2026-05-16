@@ -3,8 +3,8 @@
 > **Advanced IPTV player for Kodi with PVR integration, multi-profile support, and intelligent content management.** A powerful addon for Xtream Codes and M3U playlist playback with organized categories, EPG support, and seamless Kodi integration.
 
 ![Kodi](https://img.shields.io/badge/Kodi-21%20Omega-blue.svg)
-![Version](https://img.shields.io/badge/version-2.1.4-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Version](https://img.shields.io/badge/version-2.1.5-blue.svg)
+![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-green.svg)
 ![Platform](https://img.shields.io/badge/platform-Android%20%7C%20Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20iOS-lightgrey.svg)
 
 <div align="center">
